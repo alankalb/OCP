@@ -3,10 +3,8 @@ project( OCP )
 
 set( N_PROC 2 CACHE STRING "Number of processes used for generating code")
 
-find_package(LLVM REQUIRED )
 find_package(VTK REQUIRED )
 find_package(RapidJSON REQUIRED )
-find_package( Clang REQUIRED )
 
 set( Python_FIND_VIRTUALENV FIRST )
 find_package( Python COMPONENTS Interpreter REQUIRED )
